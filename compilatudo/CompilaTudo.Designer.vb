@@ -45,7 +45,7 @@ Partial Class CompilaTudo
         '
         'btnPastaRaiz
         '
-        Me.btnPastaRaiz.Location = New System.Drawing.Point(350, 64)
+        Me.btnPastaRaiz.Location = New System.Drawing.Point(350, 46)
         Me.btnPastaRaiz.Name = "btnPastaRaiz"
         Me.btnPastaRaiz.Size = New System.Drawing.Size(75, 23)
         Me.btnPastaRaiz.TabIndex = 1
@@ -55,7 +55,7 @@ Partial Class CompilaTudo
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(9, 45)
+        Me.Label1.Location = New System.Drawing.Point(9, 27)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(56, 13)
         Me.Label1.TabIndex = 2
@@ -65,7 +65,7 @@ Partial Class CompilaTudo
         '
         Me.txtPastaRaiz.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
         Me.txtPastaRaiz.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.FileSystemDirectories
-        Me.txtPastaRaiz.Location = New System.Drawing.Point(12, 64)
+        Me.txtPastaRaiz.Location = New System.Drawing.Point(12, 46)
         Me.txtPastaRaiz.Name = "txtPastaRaiz"
         Me.txtPastaRaiz.Size = New System.Drawing.Size(332, 20)
         Me.txtPastaRaiz.TabIndex = 0
@@ -74,7 +74,7 @@ Partial Class CompilaTudo
         '
         Me.terminal.BackColor = System.Drawing.Color.Black
         Me.terminal.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.terminal.Location = New System.Drawing.Point(12, 134)
+        Me.terminal.Location = New System.Drawing.Point(12, 116)
         Me.terminal.Multiline = True
         Me.terminal.Name = "terminal"
         Me.terminal.ReadOnly = True
@@ -85,7 +85,7 @@ Partial Class CompilaTudo
         '
         'btnGerarBat
         '
-        Me.btnGerarBat.Location = New System.Drawing.Point(636, 535)
+        Me.btnGerarBat.Location = New System.Drawing.Point(636, 86)
         Me.btnGerarBat.Name = "btnGerarBat"
         Me.btnGerarBat.Size = New System.Drawing.Size(75, 23)
         Me.btnGerarBat.TabIndex = 5
@@ -94,7 +94,7 @@ Partial Class CompilaTudo
         '
         'pbar
         '
-        Me.pbar.Location = New System.Drawing.Point(615, 565)
+        Me.pbar.Location = New System.Drawing.Point(615, 510)
         Me.pbar.Maximum = 0
         Me.pbar.Name = "pbar"
         Me.pbar.Size = New System.Drawing.Size(193, 23)
@@ -107,7 +107,7 @@ Partial Class CompilaTudo
         Me.sttb.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.FileSystemDirectories
         Me.sttb.BackColor = System.Drawing.SystemColors.Control
         Me.sttb.Enabled = False
-        Me.sttb.Location = New System.Drawing.Point(0, 565)
+        Me.sttb.Location = New System.Drawing.Point(0, 510)
         Me.sttb.Name = "sttb"
         Me.sttb.ReadOnly = True
         Me.sttb.Size = New System.Drawing.Size(620, 20)
@@ -116,7 +116,7 @@ Partial Class CompilaTudo
         '
         'btnCompilar
         '
-        Me.btnCompilar.Location = New System.Drawing.Point(717, 535)
+        Me.btnCompilar.Location = New System.Drawing.Point(717, 86)
         Me.btnCompilar.Name = "btnCompilar"
         Me.btnCompilar.Size = New System.Drawing.Size(75, 23)
         Me.btnCompilar.TabIndex = 6
@@ -130,7 +130,7 @@ Partial Class CompilaTudo
         '
         Me.txtPastaDestino.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
         Me.txtPastaDestino.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.FileSystemDirectories
-        Me.txtPastaDestino.Location = New System.Drawing.Point(12, 104)
+        Me.txtPastaDestino.Location = New System.Drawing.Point(12, 86)
         Me.txtPastaDestino.Name = "txtPastaDestino"
         Me.txtPastaDestino.Size = New System.Drawing.Size(332, 20)
         Me.txtPastaDestino.TabIndex = 2
@@ -138,7 +138,7 @@ Partial Class CompilaTudo
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(9, 88)
+        Me.Label2.Location = New System.Drawing.Point(9, 70)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(352, 13)
         Me.Label2.TabIndex = 11
@@ -146,7 +146,7 @@ Partial Class CompilaTudo
         '
         'btnPastaDestino
         '
-        Me.btnPastaDestino.Location = New System.Drawing.Point(350, 104)
+        Me.btnPastaDestino.Location = New System.Drawing.Point(350, 86)
         Me.btnPastaDestino.Name = "btnPastaDestino"
         Me.btnPastaDestino.Size = New System.Drawing.Size(75, 23)
         Me.btnPastaDestino.TabIndex = 3
@@ -172,14 +172,14 @@ Partial Class CompilaTudo
         'ParametrosToolStripMenuItem
         '
         Me.ParametrosToolStripMenuItem.Name = "ParametrosToolStripMenuItem"
-        Me.ParametrosToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ParametrosToolStripMenuItem.Size = New System.Drawing.Size(109, 22)
         Me.ParametrosToolStripMenuItem.Text = "Alterar"
         '
         'CompilaTudo
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(804, 588)
+        Me.ClientSize = New System.Drawing.Size(804, 532)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Controls.Add(Me.btnPastaDestino)
         Me.Controls.Add(Me.txtPastaDestino)

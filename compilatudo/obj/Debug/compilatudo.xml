@@ -100,6 +100,11 @@ compilatudo
 	<summary>
   A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
+</member><member name="T:compilatudo.CompilaTudo">
+	<summary>
+  Programa para compilar em Lote
+ </summary>
+	<remarks></remarks>
 </member><member name="T:compilatudo.DS.ConfigUsuDataTable">
 	<summary>
 Represents the strongly named DataTable class.
@@ -140,11 +145,6 @@ Row event argument class
 	<summary>
 Represents a strongly typed in-memory cache of data.
 </summary>
-</member><member name="T:compilatudo.CompilaTudo">
-	<summary>
-  Programa para compilar em Lote
- </summary>
-	<remarks></remarks>
 </member>
 </members>
 </doc>

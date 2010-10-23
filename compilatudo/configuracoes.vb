@@ -2,6 +2,8 @@
 
     Dim config As DataTable = CompilaTudo.config.ConfigUsu
 
+#Region " Eventos"
+
     Private Sub procurarPasta(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click, Button2.Click, Button1.Click
         procuraPasta.Reset()
         Dim txt As TextBox
@@ -28,6 +30,27 @@
         End If
     End Sub
 
+    Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button6.Click
+        pegaValores()
+        CompilaTudo.aplicaConfigs()
+        CompilaTudo.salvarConfigs()
+        Me.Close()
+    End Sub
+
+    Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button5.Click
+        Me.Close()
+    End Sub
+
+    Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
+        pegaValores()
+        CompilaTudo.aplicaConfigs()
+        CompilaTudo.salvarConfigs()
+    End Sub
+
+#End Region
+
+#Region " Funcoes "
+
     Public Sub New()
 
         ' This call is required by the Windows Form Designer.
@@ -44,23 +67,6 @@
             txt2008.Text = config.Rows(0).Item("pathFrameWork3.5")
             ' config.Rows(0).Item("Usuario") = ""
         End If
-    End Sub
-
-    Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
-        pegaValores()
-        CompilaTudo.aplicaConfigs()
-        CompilaTudo.salvarConfigs()
-    End Sub
-
-    Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button6.Click
-        pegaValores()
-        CompilaTudo.aplicaConfigs()
-        CompilaTudo.salvarConfigs()
-        Me.Close()
-    End Sub
-
-    Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button5.Click
-        Me.Close()
     End Sub
 
     Private Sub pegaValores()
@@ -82,5 +88,7 @@
             End With
         End If
     End Sub
+
+#End Region
 
 End Class

@@ -44,7 +44,7 @@
   </xs:schema>
   <ConfigUsu>
     <corTerminalFundo>-16777216</corTerminalFundo>
-    <corTerminalFonte>-65408</corTerminalFonte>
+    <corTerminalFonte>-16744384</corTerminalFonte>
     <pathFrameWork3.5>C:\Windows\Microsoft.NET\Framework\v3.5\</pathFrameWork3.5>
     <Usuario />
   </ConfigUsu>

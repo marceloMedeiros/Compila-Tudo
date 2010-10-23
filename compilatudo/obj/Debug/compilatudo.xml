@@ -1,0 +1,150 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+compilatudo
+</name>
+</assembly>
+<members>
+<member name="M:compilatudo.folderSelect.FolderSelect.fillTree">
+	<summary> method fillTree
+ <para>This method is used to initially fill the treeView control with a list
+ of available drives from which you can search for the desired folder.</para>
+	</summary>
+</member><member name="M:compilatudo.folderSelect.FolderSelect.getSubDirs(System.Windows.Forms.TreeNode)">
+	<summary> method getSubDirs
+ <para>this function will scan the specified parent for any subfolders
+ if they exist. To minimize the memory usage, we only scan a single
+ folder level down from the existing, and only if it is needed.</para>
+		<param name="parent">the parent folder in which to search for sub-folders.</param>
+	</summary>
+</member><member name="M:compilatudo.folderSelect.FolderSelect.fixPath(System.Windows.Forms.TreeNode)">
+	<summary> method fixPath
+ <para>For some reason, the treeView will only work with paths constructed like the following example.
+ "c:\\Program Files\Microsoft\...". What this method does is strip the leading "\\" next to the drive
+ letter.</para>
+		<param name="node">the folder that needs it's path fixed for display.</param>
+		<returns>The correctly formatted full path to the selected folder.</returns>
+	</summary>
+</member><member name="M:compilatudo.folderSelect.FolderSelect.Dispose(System.Boolean)">
+	<summary>
+ Clean up any resources being used.
+ </summary>
+</member><member name="F:compilatudo.folderSelect.FolderSelect.panel2">
+	<summary>
+ Required method for Designer support - do not modify
+ the contents of this method with the code editor.
+ </summary>
+</member><member name="M:compilatudo.folderSelect.FolderSelect.treeView1_BeforeSelect(System.Object,System.Windows.Forms.TreeViewCancelEventArgs)">
+	<summary> method treeView1_BeforeSelect
+ <para>Before we select a tree node we want to make sure that we scan the soon to be selected
+ tree node for any sub-folders. this insures proper tree construction on the fly.</para>
+		<param name="sender">The object that invoked this event</param>
+		<param name="e">The TreeViewCancelEventArgs event arguments.</param>
+		<see cref="T:System.Windows.Forms.TreeViewCancelEventArgs"/>
+		<see cref="T:System.Windows.Forms.TreeView"/>
+	</summary>
+</member><member name="M:compilatudo.folderSelect.FolderSelect.treeView1_BeforeExpand(System.Object,System.Windows.Forms.TreeViewCancelEventArgs)">
+	<summary> method treeView1_BeforeExpand
+ <para>Before we expand a tree node we want to make sure that we scan the soon to be expanded
+ tree node for any sub-folders. this insures proper tree construction on the fly.</para>
+		<param name="sender">The object that invoked this event</param>
+		<param name="e">The TreeViewCancelEventArgs event arguments.</param>
+		<see cref="T:System.Windows.Forms.TreeViewCancelEventArgs"/>
+		<see cref="T:System.Windows.Forms.TreeView"/>
+	</summary>
+</member><member name="M:compilatudo.folderSelect.FolderSelect.cancelBtn_Click(System.Object,System.EventArgs)">
+	<summary> method cancelBtn_Click
+ <para>This method cancels the folder browsing.</para>
+	</summary>
+</member><member name="M:compilatudo.folderSelect.FolderSelect.selectBtn_Click(System.Object,System.EventArgs)">
+	<summary> method selectBtn_Click
+ <para>This method accepts which ever folder is selected and closes this application
+ with a DialogResult.OK result if you invoke this form though Form.ShowDialog().
+ In this example this method simply looks up the selected folder, and presents the
+ user with a message box displaying the name and path of the selected folder.
+ </para>
+	</summary>
+</member><member name="P:compilatudo.folderSelect.FolderSelect.Names">
+	<summary> method name
+ <para>A method to retrieve the short name for the selected folder.</para>
+		<returns>The folder name for the selected folder.</returns>
+	</summary>
+</member><member name="P:compilatudo.folderSelect.FolderSelect.fullPath">
+	<summary> method fullPath
+ <para>Retrieve the full path for the selected folder.</para>
+		<returns>The correctly formatted full path to the selected folder.</returns>
+		<seealso cref="M:compilatudo.folderSelect.FolderSelect.fixPath(System.Windows.Forms.TreeNode)"/>
+	</summary>
+</member><member name="P:compilatudo.folderSelect.FolderSelect.info">
+	<summary> method info
+ <para>Retrieve the full DirectoryInfo object associated with the selected folder. Note
+ that this will not have the corrected full path string.</para>
+		<returns>The full DirectoryInfo object associated with the selected folder.</returns>
+		<see cref="T:System.IO.DirectoryInfo"/>
+	</summary>
+</member><member name="T:compilatudo.folderSelect.FolderSelect">
+	<summary> class FolderSelect
+ <para>An example on how to build a folder browser dialog window using C# and the .Net framework.</para>
+	</summary>
+</member><member name="P:compilatudo.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:compilatudo.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:compilatudo.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:compilatudo.DS.ConfigUsuDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:compilatudo.DS.HistoricoComandosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:compilatudo.DS.HistoricoPathsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:compilatudo.DS.ConfigUsuRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:compilatudo.DS.HistoricoComandosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:compilatudo.DS.HistoricoPathsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:compilatudo.DS.ConfigUsuRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:compilatudo.DS.HistoricoComandosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:compilatudo.DS.HistoricoPathsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:compilatudo.DS">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:compilatudo.CompilaTudo">
+	<summary>
+  Programa para compilar em Lote
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

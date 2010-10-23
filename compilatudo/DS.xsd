@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS" targetNamespace="http://tempuri.org/DS.xsd" xmlns:mstns="http://tempuri.org/DS.xsd" xmlns="http://tempuri.org/DS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS" msprop:Generator_DataSetName="DS" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ConfigUsu" msprop:Generator_UserTableName="ConfigUsu" msprop:Generator_RowDeletedName="ConfigUsuRowDeleted" msprop:Generator_RowChangedName="ConfigUsuRowChanged" msprop:Generator_RowClassName="ConfigUsuRow" msprop:Generator_RowChangingName="ConfigUsuRowChanging" msprop:Generator_RowEvArgName="ConfigUsuRowChangeEvent" msprop:Generator_RowEvHandlerName="ConfigUsuRowChangeEventHandler" msprop:Generator_TableClassName="ConfigUsuDataTable" msprop:Generator_TableVarName="tableConfigUsu" msprop:Generator_RowDeletingName="ConfigUsuRowDeleting" msprop:Generator_TablePropName="ConfigUsu">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="corTerminalFundo" msprop:Generator_UserColumnName="corTerminalFundo" msprop:Generator_ColumnVarNameInTable="columncorTerminalFundo" msprop:Generator_ColumnPropNameInRow="corTerminalFundo" msprop:Generator_ColumnPropNameInTable="corTerminalFundoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="corTerminalFonte" msprop:Generator_UserColumnName="corTerminalFonte" msprop:Generator_ColumnVarNameInTable="columncorTerminalFonte" msprop:Generator_ColumnPropNameInRow="corTerminalFonte" msprop:Generator_ColumnPropNameInTable="corTerminalFonteColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="pathFrameWork3.5" msprop:Generator_UserColumnName="pathFrameWork3.5" msprop:Generator_ColumnVarNameInTable="_columnpathFrameWork3_5" msprop:Generator_ColumnPropNameInRow="_pathFrameWork3_5" msprop:Generator_ColumnPropNameInTable="_pathFrameWork3_5Column" type="xs:string" minOccurs="0" />
+              <xs:element name="Usuario" msprop:Generator_UserColumnName="Usuario" msprop:Generator_ColumnPropNameInRow="Usuario" msprop:Generator_ColumnVarNameInTable="columnUsuario" msprop:Generator_ColumnPropNameInTable="UsuarioColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="HistoricoComandos" msprop:Generator_UserTableName="HistoricoComandos" msprop:Generator_RowDeletedName="HistoricoComandosRowDeleted" msprop:Generator_RowChangedName="HistoricoComandosRowChanged" msprop:Generator_RowClassName="HistoricoComandosRow" msprop:Generator_RowChangingName="HistoricoComandosRowChanging" msprop:Generator_RowEvArgName="HistoricoComandosRowChangeEvent" msprop:Generator_RowEvHandlerName="HistoricoComandosRowChangeEventHandler" msprop:Generator_TableClassName="HistoricoComandosDataTable" msprop:Generator_TableVarName="tableHistoricoComandos" msprop:Generator_RowDeletingName="HistoricoComandosRowDeleting" msprop:Generator_TablePropName="HistoricoComandos">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="comando" msprop:Generator_UserColumnName="comando" msprop:Generator_ColumnVarNameInTable="columncomando" msprop:Generator_ColumnPropNameInRow="comando" msprop:Generator_ColumnPropNameInTable="comandoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Usuario" msprop:Generator_UserColumnName="Usuario" msprop:Generator_ColumnVarNameInTable="columnUsuario" msprop:Generator_ColumnPropNameInRow="Usuario" msprop:Generator_ColumnPropNameInTable="UsuarioColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="HistoricoPaths" msprop:Generator_UserTableName="HistoricoPaths" msprop:Generator_RowDeletedName="HistoricoPathsRowDeleted" msprop:Generator_RowChangedName="HistoricoPathsRowChanged" msprop:Generator_RowClassName="HistoricoPathsRow" msprop:Generator_RowChangingName="HistoricoPathsRowChanging" msprop:Generator_RowEvArgName="HistoricoPathsRowChangeEvent" msprop:Generator_RowEvHandlerName="HistoricoPathsRowChangeEventHandler" msprop:Generator_TableClassName="HistoricoPathsDataTable" msprop:Generator_TableVarName="tableHistoricoPaths" msprop:Generator_RowDeletingName="HistoricoPathsRowDeleting" msprop:Generator_TablePropName="HistoricoPaths">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="pastaRaiz" msprop:Generator_UserColumnName="pastaRaiz" msprop:Generator_ColumnVarNameInTable="columnpastaRaiz" msprop:Generator_ColumnPropNameInRow="pastaRaiz" msprop:Generator_ColumnPropNameInTable="pastaRaizColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="pastaDestino" msprop:Generator_UserColumnName="pastaDestino" msprop:Generator_ColumnVarNameInTable="columnpastaDestino" msprop:Generator_ColumnPropNameInRow="pastaDestino" msprop:Generator_ColumnPropNameInTable="pastaDestinoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Usuario" msprop:Generator_UserColumnName="Usuario" msprop:Generator_ColumnVarNameInTable="columnUsuario" msprop:Generator_ColumnPropNameInRow="Usuario" msprop:Generator_ColumnPropNameInTable="UsuarioColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

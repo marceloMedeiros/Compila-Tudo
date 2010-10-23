@@ -1,0 +1,15 @@
+C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\compilatudo\compilatudo\bin\Debug\compilatudo.pdb
+C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\compilatudo\compilatudo\bin\Debug\compilatudo.xml
+C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\compilatudo\compilatudo\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\compilatudo\compilatudo\obj\Debug\compilatudo.Resources.resources
+C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\compilatudo\compilatudo\obj\Debug\compilatudo.vbproj.GenerateResource.Cache
+C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\compilatudo\compilatudo\obj\Debug\compilatudo.xml
+C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\compilatudo\compilatudo\obj\Debug\compilatudo.pdb
+C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\compilatudo\compilatudo\bin\Debug\compilatudo.exe
+C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\compilatudo\compilatudo\obj\Debug\compilatudo.exe
+C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\compilatudo\compilatudo\obj\Debug\compilatudo.CompilaTudo.resources
+F:\Projetos VB\compilatudo\compilatudo\obj\Debug\compilatudo.exe
+F:\Projetos VB\compilatudo\compilatudo\obj\Debug\compilatudo.xml
+F:\Projetos VB\compilatudo\compilatudo\obj\Debug\compilatudo.pdb
+C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\compilatudo\compilatudo\obj\Debug\compilatudo.folderSelect.FolderSelect.resources
+C:\Users\Marcelo\Documents\Visual Studio 2008\Projects\compilatudo\compilatudo\obj\Debug\compilatudo.configuracoes.resources

@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="yes"?>
+<DS xmlns="http://tempuri.org/DS.xsd">
+  <xs:schema id="DS" targetNamespace="http://tempuri.org/DS.xsd" xmlns:mstns="http://tempuri.org/DS.xsd" xmlns="http://tempuri.org/DS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+    <xs:element name="DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="ConfigUsu">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="corTerminalFundo" type="xs:string" minOccurs="0" />
+                <xs:element name="corTerminalFonte" type="xs:string" minOccurs="0" />
+                <xs:element name="pathFrameWork3.5" msprop:Generator_UserColumnName="pathFrameWork3.5" msprop:Generator_ColumnVarNameInTable="_columnpathFrameWork3_5" type="xs:string" minOccurs="0" />
+                <xs:element name="Usuario" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="HistoricoComandos">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="comando" type="xs:string" minOccurs="0" />
+                <xs:element name="Usuario" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="HistoricoPaths">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="pastaRaiz" type="xs:string" minOccurs="0" />
+                <xs:element name="pastaDestino" type="xs:string" minOccurs="0" />
+                <xs:element name="Usuario" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Parametros">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="pathFrameWork3.5" msprop:Generator_UserColumnName="pathFrameWork3.5" msprop:Generator_ColumnVarNameInTable="_columnpathFrameWork3_5" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <ConfigUsu>
+    <corTerminalFundo>-16777216</corTerminalFundo>
+    <corTerminalFonte>-65408</corTerminalFonte>
+    <pathFrameWork3.5>C:\Windows\Microsoft.NET\Framework\v3.5\</pathFrameWork3.5>
+    <Usuario />
+  </ConfigUsu>
+</DS>
